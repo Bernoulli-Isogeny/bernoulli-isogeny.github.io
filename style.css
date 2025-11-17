@@ -1,0 +1,365 @@
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 3rem;    /* Footer height */
+  }
+
+
+
+/* Body style*/
+
+
+body{
+    font-family:  Helvetica, sans-serif;
+    margin: auto;
+    display:flexbox;
+    text-align: justify;
+    background-color:rgb(240, 240, 240);
+    vertical-align: baseline;
+    position: relative;
+
+}
+
+.Core{
+    min-height:  75vh;
+}
+
+
+/* Header modifyer*/
+
+header{
+    min-height: auto;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+
+}
+
+
+.Header_title{
+color: rgb(218, 41, 28);
+margin: auto;
+width: 40%;
+}
+
+
+.Header_title h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0%;
+
+}
+
+.Header_title h3{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(218, 41, 28);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation modifyers*/
+nav{
+    font-family: "Roboto", sans-serif;
+    height: 70px;
+    text-align: center;
+    background-color: lightgrey;
+    border-bottom: 2px solid rgb(218, 41, 28);
+    overflow: auto;
+
+}
+
+.menu{
+    display: table;
+    margin: 0 auto;
+    width: 70%;
+}
+
+nav ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu-me a{
+    display: inline-block;
+    text-decoration: none; 
+    color: black; 
+    padding: 25px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+
+.submenu a{
+    display: inline-block;
+    text-decoration: none; 
+    color: black; 
+    padding: 35px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.menu-standardlink-activepage{
+    border-bottom: 3px solid  rgb(218, 41, 28);
+    height: 67px;
+}
+
+.menu-standardlink-activepage a{
+    display: inline-block;
+    text-decoration: none; 
+    color:   rgb(218, 41, 28);
+    padding: 35px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+nav li{
+    list-style-type: none;
+    float: left;
+
+}
+
+
+.menu-standardlink:hover{
+    border-bottom: 3px solid rgb(218, 41, 28);
+    background-color: rgba(218, 41, 28, 0.4);
+    height: 67px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-me:hover{
+    border-bottom: 3px solid rgb(218, 41, 28);
+    background-color: rgba(218, 41, 28, 0.4);
+    height: 67px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submenu li:hover a{
+    padding: 35px 20px 10px 20px;
+
+}
+
+
+/*Footers*/
+
+
+.superpadding{
+    min-height: 100%;
+}
+
+footer{
+    height: 60px;
+    text-align: center;
+    /*background-color: lightgrey;*/
+    border-top: 2px solid rgb(218, 41, 28);
+    position:static;
+    bottom: auto;
+}
+
+
+
+
+
+
+/*
+I will work on that
+*/
+
+
+h1{
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-transform: capitalize;
+}
+
+.map{
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
+.subtitles{
+    font-size: 20px;
+    
+}
+
+.shortbio{
+    text-emphasis: none;
+    padding-top: 30px;
+
+}
+
+
+
+.left{
+    padding-top: 10px;
+    float: left;
+    width: 60%;
+    
+}
+
+.left p{
+    width: 90%;
+    text-align: justify;
+
+}
+
+.right{
+    padding-top: 10px;
+    position: absolute;
+    right: 5%;
+    width: 30%;
+
+}
+
+.right h3{
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+
+.logo_picture {
+    width: 30%;
+    max-width: 70%;
+}
+
+.separator{
+    padding-top: 30px;
+    margin: 0 auto;
+
+
+}
+
+section{
+    max-width:70%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+section li{
+    list-style-position: outside;
+
+}
+
+ section li::marker {
+  color:  rgb(218, 41, 28);
+}
+
+.WIP_image {
+max-width: 10svb;}
+
+
+section a{
+    text-decoration: none; 
+    color: rgb(218, 41, 28);
+    background: linear-gradient(transparent 90%, rgb(218, 41, 28) 10%);
+
+}
+
+.papers{
+    text-decoration: none; 
+    color: black;
+    background: linear-gradient(transparent 90%, #000080 10%);
+    box-shadow: inset 0 0 0 0 #000080;
+
+}
+
+
+
+.papers:hover{
+    box-shadow: inset 10px 10px 10px 10px #000080;
+    color: white;
+    transition: box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+
+
+h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(218, 41, 28);
+    size: large;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(218, 41, 28);
+    size: large;
+}
+
+
+
+.filepara{
+    padding-left: 2%;
+}
+
+
+section iframe{
+    margin: 0 auto;
+
+}
+
+
+
+.iframe{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head-video{
+    text-align: center;
+
+}
+
+.poster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*
+
+.ket::before{
+        content: "|";
+        padding-bottom: 20px;
+        font-size: 110%;
+    }
+        
+
+.ket::after{
+content: "\232A";
+font-size: 130%;
+
+}
+
+*/
+
