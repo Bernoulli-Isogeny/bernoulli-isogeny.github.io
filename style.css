@@ -153,8 +153,6 @@ nav li{
 
 
 /*Footers*/
-
-
 .superpadding{
     min-height: 100%;
 }
@@ -183,60 +181,13 @@ h1{
     margin: 0 auto; 
 }
 
-
-
-.subtitles{
-    font-size: 20px;
-    
-}
-
-.shortbio{
-    text-emphasis: none;
-    padding-top: 30px;
-
-}
-
-
-
-.left{
-    padding-top: 10px;
-    float: left;
-    width: 60%;
-    
-}
-
-.left p{
-    width: 90%;
-    text-align: justify;
-
-}
-
-.right{
-    padding-top: 10px;
-    position: absolute;
-    right: 5%;
-    width: 30%;
-
-}
-
-.right h3{
-    text-align: left;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
-
-
 .logo_picture {
     width: 30%;
     max-width: 70%;
 }
 
 .separator{
-    padding-top: 30px;
+    padding-top: 7vh;
     margin: 0 auto;
 
 
@@ -258,9 +209,6 @@ section li{
   color:  rgb(218, 41, 28);
 }
 
-.WIP_image {
-max-width: 10svb;}
-
 
 section a{
     text-decoration: none; 
@@ -277,7 +225,7 @@ h2{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
     color: rgb(218, 41, 28);
     size: large;
@@ -307,20 +255,46 @@ h3{
 }
 
 
-/*
+.sponsor_table{
+    margin: auto;
+    width: 70%;
+    background-color: lightgray;
+    padding: 5px;
+    border-width: 2px 0 2px 0;
+    border-style: solid none solid none;
 
-.ket::before{
-        content: "|";
-        padding-bottom: 20px;
-        font-size: 110%;
-    }
-        
-
-.ket::after{
-content: "\232A";
-font-size: 130%;
 
 }
 
-*/
+.sponsor_table h2{
+    text-align: center
+}
+
+.sponsor_table a{
+        background: none;
+}
+
+
+
+.Program_table{
+    margin: auto;
+    width: 80%;
+    background-color: lightgray;
+    padding: 5px;
+    border-width: 2px 0 2px 0;
+    border-style: solid none solid none;
+}
+
+.Program_table h2{
+    text-align: center
+}
+.Program_table h3{
+    text-align: center
+}
+
+.Program_table a{
+        background: none;
+}
+
+
 
