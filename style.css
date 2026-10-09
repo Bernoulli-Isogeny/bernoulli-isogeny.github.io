@@ -289,8 +289,8 @@ h3{
 
 .Program_table{
     margin: auto;
-    width: 80%;
-    background-color: lightgray;
+    width: 90%;
+    background-color: rgb(237, 237, 237);
     padding: 5px;
     border-width: 2px 0 2px 0;
     border-style: solid none solid none;
